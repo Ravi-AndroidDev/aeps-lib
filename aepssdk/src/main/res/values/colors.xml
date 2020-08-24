@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#E9E9E9</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="textColorPrimary">#000000</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#9D9792</color>
+    <color name="color_grey">#a8a8a8</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_yellow">#FAD23B</color>
+    <color name="background_blue">#1B2C3E</color>
+    <color name="light_gray">#EDEDED</color>
+    <color name="indicator_color">#2367B2</color>
+
+    <color name="indicator_color_matm">#089BD2</color>
+    <color name="txt_btn_color">#EEEEEE</color>
+    <color name="divider_color">#0B1930</color>
+    <color name="view_color">#DDDDDD</color>
+    <color name="text_blue_color">#003A82</color>
+    <color name="light_color">#F9F9F9</color>
+    <color name="background_color">#FAFAFA</color>
+    <color name="color_gray_new">#CDCDCD</color>
+    <color name="buttom_tab_color">#D6D6D6</color>
+    <color name="horizontal_list_color">#154E8A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#211E0E</color>
+    <color name="operatortoolbarblue">#003477</color>
+    <color name="orangetext">#F89633</color>
+    <color name="transactionback">#D2DBE6</color>
+    <color name="success">#429610</color>
+    <color name="grayline">#BFBFBF</color>
+    <color name="darkorange">#E88B2D</color>
+    <color name="bordercolororange">#F5B06A</color>
+    <color name="fent">#D4D7DB</color>
+
+    <color name="bluerupee">#4371A3</color>
+    <color name="bluebutton_color">#194CA4</color>
+    <color name="fent_blue">#F0F2F5</color>
+
+    <color name="refund_details_text_color">#424242</color>
+    <color name="refund_request_txt_color">#0d4f8d</color>
+    <color name="refund_customer_txt_color">#8e8e8e</color>
+    <color name="resendotp">#F7941E</color>
+
+    <color name="gray_lighter">#D3D3D3</color>
+
+    <color name="layout_backgroundcolor">#F0F5F8</color>
+    <color name="blue_text_color">#03b6a3</color>
+    <color name="fent_blue_new">#0d4f8d</color>
+    <color name="new_btn_color_theme">#02b6a3</color>
+    <color name="text_edit_activited_color">#0d4f8d</color>
+    <color name="disabled_color">#44000000</color>
+    <color name="error_color">#E7492E</color>
+
+    <color name="text_sykblue_color">#0d4f8d</color>
+    <color name="homebacktheme">#f1f5f8</color>
+
+
+    <color name="transc_txt_color">#606060</color>
+    <color name="colorView">#9D9792</color>
+    <color name="spinner_floating_text_color">#9D9792</color>
+
+    <color name="sign_text_color">#00a896</color>
+    <color name="text_forgot_pass_color">#03b6a3</color>
+    <color name="terms_condt_txt_color">#bdbdbd</color>
+    <color name="not_member_txt_color">#606060</color>
+    <color name="text_show_blue_color">#0d4f8d</color>
+    <color name="truecalr_txt_color">#606060</color>
+    <color name="background_link_account_color">#f1f5f8</color>
+    <color name="editext_bottom_view_color">#d8d8d8</color>
+    <color name="reg_sign_in_txt_color">#00a896</color>
+    <color name="text_show_blue_color_light">#0280D5</color>
+
+
+    <color name="colorLabel">#000000</color>
+    <color name="colorBg">#80B0C4DE</color>
+
+    <!--Changes by ravi-->
+    <color name="row_buttonTextColor">#00a896</color>
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="text_blue_color_aeps">#0d4f8d</color>
+    <color name="transact_button_color">#DCE6F2</color>
+    <color name="aeps_backgroud_color">#FFFFFF</color>
+    <color name="dmt_red_color">#f44444</color>
+
+
+    <color name="color_pink">#c51c6f</color>
+    <color name="color_purple">#7f38ba</color>
+    <color name="color_purple_light">#307f38ba</color>
+    <color name="color_light_orange">#f57222</color>
+    <color name="color_rad">#f44444</color>
+    <color name="color_sky">#4778f8</color>
+
+
+    <color name="aeps_receipt_header_color">#00a896</color>
+    <color name="checkbox_background_color">#00a896</color>
+
+    <color name="aeps_home_text_color">#198C0A</color>
+    <color name="aeps_home_aeps_report_text_color">#F5B6C7</color>
+    <color name="aeps_home_bank_transfer_text_color">#5330A4</color>
+    <color name="aeps_home_bank_transfer_report_text_color">#FF5A19</color>
+
+
+    <color name="dmt_refund_text_color">#F5BB66</color>
+    <color name="dmt_check_balance_text_color">#0D4F8C</color>
+
+    <color name="dmt_button_color_selected">#F16022</color>
+    <color name="dmt_button_color_unselected">#FFE5D9</color>
+
+
+    <color name="greenStart">#ff33dd44</color>
+    <color name="greenMid">#ff0A8815</color>
+    <color name="greenEnd">#ff1da130</color>
+    <color name="matm_transparent_color">#ddffffff</color>
+
+</resources>

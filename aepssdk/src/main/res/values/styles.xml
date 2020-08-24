@@ -1,0 +1,362 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <!-- darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- theme UI controls like checkboxes and text fields -->
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+
+    <style name="notificationTextView">
+        <item name="android:singleLine">false</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="SwitchButtonStyle">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="Progres_Custom_Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">adjustResize|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="CropButton">
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/selector_crop_button</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#4990E2</item>
+        <item name="android:textColorPrimary">#606060</item>
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <style name="btn1">
+        <item name="android:textSize">@dimen/_11sdp</item>
+        <item name="android:paddingTop">@dimen/_10sdp</item>
+        <item name="android:paddingBottom">@dimen/_10sdp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/button_circular_white</item>
+    </style>
+
+    <style name="chbx1">
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:textColor">@color/colorLabel</item>
+    </style>
+
+    <style name="lblTitleLight">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textColor">@color/colorLabel</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextLabel" parent="Widget.Design.TextInputLayout">
+        <!--parent="Widget.Design.TextInputLayout"-->
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/colorAccent</item>
+
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/fent_blue_new</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:textColor">@color/black</item>
+
+
+
+    </style>
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTabText</item>
+        <item name="tabSelectedTextColor">@color/bluebutton_color</item>
+    </style>
+
+    <style name="MyCustomTabText" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="normalEdittextStyle">
+        <!--<item name="android:textSize">@dimen/normallayout_edittextsize</item>
+        <item name="android:layout_marginLeft">@dimen/margin_left_edittext_normallayout</item>
+        <item name="android:layout_marginRight">@dimen/margin_right_edittext_normallayout</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom_edittext_normallayout</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_edittext_normallayout</item>
+        <item name="android:paddingTop">@dimen/editext_label_padding_top</item>
+        <item name="android:paddingBottom">@dimen/editext_label_padding_bottom</item>
+
+       &lt;!&ndash; <item name="android:layout_marginLeft">@dimen/margin_left_edittext_normallayout</item>
+        <item name="android:layout_marginRight">@dimen/margin_right_edittext_normallayout</item>
+        <item name="android:textSize">@dimen/normallayout_edittextsize</item>
+        <item name="android:paddingTop">@dimen/editext_label_padding_top</item>
+        <item name="android:paddingBottom">@dimen/editext_label_padding_bottom</item>&ndash;&gt;
+        <item name="android:background">@drawable/edit_text_background_line</item>-->
+        <item name="android:layout_marginLeft">@dimen/margin_left_edittext_normallayout</item>
+        <item name="android:layout_marginRight">@dimen/margin_right_edittext_normallayout</item>
+        <item name="android:textSize">@dimen/normallayout_edittextsize</item>
+        <item name="android:paddingTop">@dimen/editext_label_padding_top</item>
+        <item name="android:paddingBottom">@dimen/editext_label_padding_bottom</item>
+        <item name="android:background">@drawable/edit_text_background_line</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="largeEdittextStyle">
+        <item name="android:textSize">@dimen/largelayout_edittextsize</item>
+        <item name="android:layout_marginLeft">@dimen/margin_left_edittext_largelayout</item>
+        <item name="android:layout_marginRight">@dimen/margin_right_edittext_largelayout</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom_edittext_largelayout</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_edittext_largelayout</item>
+        <item name="android:background">@drawable/edit_text_background_line</item>
+    </style>
+
+    <style name="xlargeEdittextStyle">
+        <item name="android:textSize">@dimen/xlaregelayout_edittextsize</item>
+        <item name="android:layout_marginLeft">@dimen/margin_left_edittext_xlaregelayout</item>
+        <item name="android:layout_marginRight">@dimen/margin_right_edittext_xlaregelayout</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom_edittext_xlaregelayout</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_edittext_xlaregelayout</item>
+        <item name="android:background">@drawable/edit_text_background_line</item>
+    </style>
+
+    <style name="normalSpinner">
+        <item name="android:layout_marginRight">@dimen/spinner_left_right_normal</item>
+        <item name="android:layout_marginLeft">@dimen/spinner_left_right_normal</item>
+        <item name="android:layout_marginBottom">@dimen/margin_top_edittext_normallayout</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_edittext_normallayout</item>
+
+    </style>
+
+    <style name="largeSpinner">
+        <item name="android:layout_marginRight">@dimen/spinner_left_right_large</item>
+        <item name="android:layout_marginLeft">@dimen/spinner_left_right_large</item>
+        <item name="android:layout_marginBottom">@dimen/margin_top_edittext_largelayout</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_edittext_largelayout</item>
+
+    </style>
+
+    <style name="xlargeSpinner">
+        <item name="android:layout_marginRight">@dimen/spinner_left_right_xlarge</item>
+        <item name="android:layout_marginLeft">@dimen/spinner_left_right_xlarge</item>
+        <item name="android:layout_marginBottom">@dimen/margin_top_edittext_xlaregelayout</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_edittext_xlaregelayout</item>
+
+    </style>
+
+    <style name="TextLabel1" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/bluerupee</item>
+        <item name="android:textSize">12sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/bluerupee</item>
+        <item name="colorControlNormal">@color/bluerupee</item>
+        <item name="colorControlActivated">@color/bluerupee</item>
+    </style>
+
+    <style name="MyHintText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/bluerupee</item>
+        <item name="android:textColorHint">@color/bluerupee</item>
+    </style>
+
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/blue_text_color</item>
+        <item name="colorControlActivated">@color/background_blue</item>
+    </style>
+
+    <style name="normalEdittextStyleTheme">
+        <item name="android:layout_marginLeft">@dimen/margin_left_edittext_normallayout</item>
+        <item name="android:layout_marginRight">@dimen/margin_right_edittext_normallayout</item>
+        <item name="android:textSize">@dimen/normallayout_edittextsize</item>
+        <item name="android:paddingTop">@dimen/editext_label_padding_top</item>
+        <item name="android:paddingBottom">@dimen/editext_label_padding_bottom</item>
+        <item name="android:background">@drawable/edit_text_background_line</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+    <style name="CircularProgress" parent="android:Theme.Holo.Dialog">
+        <!-- <item name="colorAccent">@color/sign_text_color</item>-->
+
+        <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CustomAlertDialogStyle">
+        <item name="android:bottomBright">@color/transparent</item>
+        <item name="android:bottomDark">@color/transparent</item>
+        <item name="android:bottomMedium">@color/transparent</item>
+        <item name="android:centerBright">@color/transparent</item>
+        <item name="android:centerDark">@color/transparent</item>
+        <item name="android:centerMedium">@color/transparent</item>
+        <item name="android:fullBright">@color/transparent</item>
+        <item name="android:fullDark">@color/transparent</item>
+        <item name="android:topBright">@color/transparent</item>
+        <item name="android:topDark">@color/transparent</item>
+    </style>
+
+    <style name="headerTitleTextView">
+        <item name="android:singleLine">false</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/text_blue_color</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+    </style>
+
+    <style name="cardStyle">
+        <item name="cardBackgroundColor">@color/whiteColor</item>
+    </style>
+
+    <style name="textViewStyle">
+        <item name="android:textColorHint">@color/gray_lighter</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+    </style>
+
+    <style name="textViewStyleFranchaisee">
+        <item name="android:textColorHint">@color/gray_lighter</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+    </style>
+
+    <style name="textViewStyleReceipt">
+        <item name="android:textColorHint">@color/gray_lighter</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="textViewStyleDMTReport">
+        <item name="android:textColorHint">@color/gray_lighter</item>
+        <item name="android:textColor">@color/blue_text_color</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+    </style>
+
+    <style name="textViewStylePopup">
+        <item name="android:textColorHint">@color/gray_lighter</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="textViewStyleBlue">
+        <item name="android:textColorHint">@color/indicator_color_matm</item>
+        <item name="android:textColor">@color/indicator_color_matm</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+    </style>
+
+    <style name="editTextStyle">
+        <item name="android:textColorHint">@color/gray_lighter</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:background">@drawable/edit_text_background_line</item>
+    </style>
+
+    <style name="editTextStyleBlue">
+        <item name="android:textColorHint">@color/indicator_color_matm</item>
+        <item name="android:textColor">@color/indicator_color_matm</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:backgroundTint">@color/indicator_color_matm</item>
+    </style>
+
+    <style name="spinnerStyle">
+        <item name="android:textColorHint">@color/gray_lighter</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+    </style>
+
+    <style name="editTextStyleDMT">
+        <item name="android:textColorHint">@color/gray_lighter</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:backgroundTint">@color/blue_text_color</item>
+    </style>
+
+    <style name="editTextStyleSearchFilters">
+        <item name="android:textColorHint">@color/gray_lighter</item>
+        <item name="android:textColor">@color/blue_text_color</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:backgroundTint">@color/blue_text_color</item>
+    </style>
+
+    <style name="editTextStyleDMTSearchSender">
+        <item name="android:textColorHint">@color/gray_lighter</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:background">@drawable/border_edit_text</item>
+    </style>
+
+    <style name="textViewStyleDMTSenderCommonHeader">
+        <item name="android:textColorHint">@color/gray_lighter</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+    </style>
+
+    <style name="textViewStyleDMTHeading">
+        <item name="android:textColorHint">@color/gray_lighter</item>
+        <item name="android:textColor">@color/blue_text_color</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+    </style>
+
+    <style name="textViewStyleDMTSenderRegistration">
+        <item name="android:textColorHint">@color/gray_lighter</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+    </style>
+
+    <style name="editTextStyleProfile">
+        <item name="android:textColorHint">@color/gray_lighter</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:background">@color/whiteColor</item>
+    </style>
+
+    <style name="editTextStyleSpinnerClient">
+        <item name="android:textColorHint">@color/gray_lighter</item>
+        <item name="android:textColor">@color/color_purple</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:backgroundTint">@color/color_purple</item>
+    </style>
+
+    <color name="transparent">#00000000</color>
+
+</resources>

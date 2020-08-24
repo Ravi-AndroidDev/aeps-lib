@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/whiteColor"
+            android:layout_margin="10dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:hint="Mobile Number"
+                android:layout_marginTop="10dp"
+                android:inputType="number"
+                android:maxLength="10"
+                android:imeOptions="actionNext"
+                android:textColor="@color/indicator_color_matm"
+                android:backgroundTint="@color/indicator_color_matm"
+                android:id="@+id/edittext_aeps_transact_mobile_number"
+                style="@style/editTextStyleBlue"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:hint="Withdraw Amount"
+                android:inputType="number"
+                android:imeOptions="actionNext"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/indicator_color_matm"
+                android:backgroundTint="@color/indicator_color_matm"
+                android:id="@+id/edittext_aeps_transact_withdraw_amount"
+                style="@style/editTextStyleBlue"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="33"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:hint="Adhaar"
+                    android:textSize="15dp"
+                    android:layout_marginTop="10dp"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:imeOptions="actionNext"
+                    android:textColor="@color/indicator_color_matm"
+                    android:backgroundTint="@color/indicator_color_matm"
+                    style="@style/editTextStyleBlue"
+                    android:id="@+id/edittext_aeps_transact_adhaar_number_first"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="33"
+                    android:padding="10dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_marginTop="10dp"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:imeOptions="actionNext"
+                    android:textColor="@color/indicator_color_matm"
+                    android:backgroundTint="@color/indicator_color_matm"
+                    style="@style/editTextStyleBlue"
+                    android:id="@+id/edittext_aeps_transact_adhaar_number_second"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="33"
+                    android:padding="10dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_marginTop="10dp"
+                    android:inputType="number"
+                    android:imeOptions="actionNext"
+                    android:maxLength="4"
+                    android:textColor="@color/indicator_color_matm"
+                    style="@style/editTextStyleBlue"
+                    android:backgroundTint="@color/indicator_color_matm"
+                    android:id="@+id/edittext_aeps_transact_adhaar_number_third"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20sdp"
+                android:background="@drawable/or"
+                android:layout_marginTop="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="25"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:hint="Virtual ID"
+                    android:inputType="number"
+                    android:imeOptions="actionDone"
+                    android:textSize="15dp"
+                    android:maxLength="4"
+                    android:textColor="@color/indicator_color_matm"
+                    style="@style/editTextStyleBlue"
+                    android:backgroundTint="@color/indicator_color_matm"
+                    android:id="@+id/edittext_aeps_transact_virtual_id_first"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="25"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:inputType="number"
+                    android:imeOptions="actionDone"
+                    android:textSize="15dp"
+                    android:maxLength="4"
+                    android:textColor="@color/indicator_color_matm"
+                    android:backgroundTint="@color/indicator_color_matm"
+                    style="@style/editTextStyleBlue"
+                    android:id="@+id/edittext_aeps_transact_virtual_id_second"/>
+
+                <EditText
+                    android:id="@+id/edittext_aeps_transact_virtual_id_third"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="25"
+                    android:backgroundTint="@color/indicator_color_matm"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:padding="10dp"
+                    android:textColor="@color/indicator_color_matm"
+                    style="@style/editTextStyleBlue"
+                    android:textSize="15dp" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="25"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:inputType="number"
+                    android:imeOptions="actionDone"
+                    android:textSize="15dp"
+                    android:maxLength="4"
+                    android:textColor="@color/indicator_color_matm"
+                    android:backgroundTint="@color/indicator_color_matm"
+                    style="@style/editTextStyleBlue"
+                    android:id="@+id/edittext_aeps_transact_virtual_id_fourth"/>
+
+            </LinearLayout>
+
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:hint="Select Bank"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/indicator_color_matm"
+                android:backgroundTint="@color/indicator_color_matm"
+                android:id="@+id/spinner_aeps_transact_select_bank"
+                android:inputType="text"
+                android:imeOptions="actionNext"
+                style="@style/editTextStyleBlue"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/whiteColor"
+            android:layout_margin="10dp">
+
+            <CheckBox
+                android:id="@+id/checkBox_terms_and_conditions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:paddingLeft="5dp"
+                android:buttonTint="@color/indicator_color_matm"
+                android:textColor="@color/indicator_color_matm"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms and Conditions"
+                android:textSize="@dimen/_18sdp"
+                android:layout_gravity="center"
+                android:textColor="@color/indicator_color_matm"
+                android:id="@+id/txt_terms_and_conditions"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_inner_light_indecatore"
+            android:layout_marginTop="30dp"
+            android:id="@+id/layout_submit"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/txt_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Capture and Submit"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
