@@ -105,7 +105,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_20sdp"
+                android:layout_height="20dp"
                 android:background="@drawable/or"
                 android:layout_marginTop="5dp"/>
 
@@ -216,7 +216,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Terms and Conditions"
-                android:textSize="@dimen/_18sdp"
+                android:textSize="18sp"
                 android:layout_gravity="center"
                 android:textColor="@color/indicator_color_matm"
                 android:id="@+id/txt_terms_and_conditions"/>

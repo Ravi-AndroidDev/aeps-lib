@@ -52,7 +52,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
-
 import static android.graphics.Typeface.BOLD;
 
 public class Util {

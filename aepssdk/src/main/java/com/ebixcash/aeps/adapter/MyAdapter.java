@@ -1,7 +1,7 @@
 package com.ebixcash.aeps.adapter;
 
-import android.app.Activity;
 import android.content.Context;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,7 +43,7 @@ public class MyAdapter extends ArrayAdapter<String> {
 
     public View getCustomView(int position, View convertView, ViewGroup parent) {
 
-        LayoutInflater inflater = ((Activity) context).getLayoutInflater();
+        LayoutInflater inflater = ((AppCompatActivity) context).getLayoutInflater();
 
         View row = inflater.inflate(R.layout.row_spinner, parent, false);
 

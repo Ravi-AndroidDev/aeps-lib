@@ -12,12 +12,12 @@
 
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
 
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
         <!-- darker variant for the status bar and contextual app bars -->
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
         <!-- theme UI controls like checkboxes and text fields -->
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="windowNoTitle">true</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
         <item name="android:windowFullscreen">false</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -44,8 +44,8 @@
         <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
         <item name="android:windowSoftInputMode">adjustResize|adjustPan</item>
         <item name="android:backgroundDimEnabled">true</item>
-        <item name="windowNoTitle">true</item>
-        <item name="background">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
     </style>
 
     <style name="CropButton">
@@ -56,13 +56,13 @@
         <item name="android:layout_width">60dp</item>
         <item name="android:textSize">20sp</item>
         <item name="android:layout_weight">1</item>
-        <item name="background">@drawable/selector_crop_button</item>
+        <item name="android:background">@drawable/selector_crop_button</item>
     </style>
 
     <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
         <item name="colorAccent">#4990E2</item>
         <item name="android:textColorPrimary">#606060</item>
-        <item name="background">#FFFFFF</item>
+        <item name="android:background">#FFFFFF</item>
     </style>
 
     <style name="btn1">
@@ -70,7 +70,7 @@
         <item name="android:paddingTop">10dp</item>
         <item name="android:paddingBottom">10dp</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="background">@drawable/button_circular_white</item>
+        <item name="android:background">@drawable/button_circular_white</item>
     </style>
 
     <style name="chbx1">
@@ -134,7 +134,7 @@
         <item name="android:textSize">@dimen/normallayout_edittextsize</item>
         <item name="android:paddingTop">@dimen/editext_label_padding_top</item>
         <item name="android:paddingBottom">@dimen/editext_label_padding_bottom</item>
-        <item name="background">@drawable/edit_text_background_line</item>
+        <item name="android:background">@drawable/edit_text_background_line</item>
         <item name="android:textColor">@color/black</item>
     </style>
 
@@ -144,7 +144,7 @@
         <item name="android:layout_marginRight">@dimen/margin_right_edittext_largelayout</item>
         <item name="android:layout_marginBottom">@dimen/margin_bottom_edittext_largelayout</item>
         <item name="android:layout_marginTop">@dimen/margin_top_edittext_largelayout</item>
-        <item name="background">@drawable/edit_text_background_line</item>
+        <item name="android:background">@drawable/edit_text_background_line</item>
     </style>
 
     <style name="xlargeEdittextStyle">
@@ -153,7 +153,7 @@
         <item name="android:layout_marginRight">@dimen/margin_right_edittext_xlaregelayout</item>
         <item name="android:layout_marginBottom">@dimen/margin_bottom_edittext_xlaregelayout</item>
         <item name="android:layout_marginTop">@dimen/margin_top_edittext_xlaregelayout</item>
-        <item name="background">@drawable/edit_text_background_line</item>
+        <item name="android:background">@drawable/edit_text_background_line</item>
     </style>
 
     <style name="normalSpinner">
@@ -206,15 +206,15 @@
         <item name="android:textSize">@dimen/normallayout_edittextsize</item>
         <item name="android:paddingTop">@dimen/editext_label_padding_top</item>
         <item name="android:paddingBottom">@dimen/editext_label_padding_bottom</item>
-        <item name="background">@drawable/edit_text_background_line</item>
+        <item name="android:background">@drawable/edit_text_background_line</item>
         <item name="android:textColor">@color/black</item>
 
     </style>
 
-    <style name="CircularProgress" parent="Theme.AppCompat.Dialog">
+    <style name="CircularProgress" parent="android:Theme.Holo.Dialog">
         <!-- <item name="colorAccent">@color/sign_text_color</item>-->
 
-        <item name="alertDialogStyle">@style/CustomAlertDialogStyle</item>
+        <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:textColorPrimary">#FFFFFF</item>
         <item name="android:backgroundDimEnabled">false</item>
@@ -288,14 +288,14 @@
         <item name="android:textColorHint">@color/gray_lighter</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">15dp</item>
-        <item name="background">@drawable/edit_text_background_line</item>
+        <item name="android:background">@drawable/edit_text_background_line</item>
     </style>
 
     <style name="editTextStyleBlue">
         <item name="android:textColorHint">@color/indicator_color_matm</item>
         <item name="android:textColor">@color/indicator_color_matm</item>
         <item name="android:textSize">15dp</item>
-        <item name="backgroundTint">@color/indicator_color_matm</item>
+        <item name="android:backgroundTint">@color/indicator_color_matm</item>
     </style>
 
     <style name="spinnerStyle">
@@ -308,21 +308,21 @@
         <item name="android:textColorHint">@color/gray_lighter</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">15dp</item>
-        <item name="backgroundTint">@color/blue_text_color</item>
+        <item name="android:backgroundTint">@color/blue_text_color</item>
     </style>
 
     <style name="editTextStyleSearchFilters">
         <item name="android:textColorHint">@color/gray_lighter</item>
         <item name="android:textColor">@color/blue_text_color</item>
         <item name="android:textSize">15dp</item>
-        <item name="backgroundTint">@color/blue_text_color</item>
+        <item name="android:backgroundTint">@color/blue_text_color</item>
     </style>
 
     <style name="editTextStyleDMTSearchSender">
         <item name="android:textColorHint">@color/gray_lighter</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">15dp</item>
-        <item name="background">@drawable/border_edit_text</item>
+        <item name="android:background">@drawable/border_edit_text</item>
     </style>
 
     <style name="textViewStyleDMTSenderCommonHeader">
@@ -347,14 +347,14 @@
         <item name="android:textColorHint">@color/gray_lighter</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">15dp</item>
-        <item name="background">@color/whiteColor</item>
+        <item name="android:background">@color/whiteColor</item>
     </style>
 
     <style name="editTextStyleSpinnerClient">
         <item name="android:textColorHint">@color/gray_lighter</item>
         <item name="android:textColor">@color/color_purple</item>
         <item name="android:textSize">15dp</item>
-        <item name="backgroundTint">@color/color_purple</item>
+        <item name="android:backgroundTint">@color/color_purple</item>
     </style>
 
     <color name="transparent">#00000000</color>

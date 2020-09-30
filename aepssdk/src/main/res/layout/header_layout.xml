@@ -8,8 +8,8 @@
         android:layout_height="50dp"
         android:background="@color/whiteColor"
         android:visibility="visible"
-        android:layout_marginLeft="@dimen/_10sdp"
-        android:layout_marginRight="@dimen/_10sdp">
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
 
         <ImageView
             android:layout_width="25dp"

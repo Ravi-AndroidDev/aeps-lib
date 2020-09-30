@@ -8,11 +8,11 @@
         android:id="@+id/textView"
         style="@style/textViewStyleBlue"
         android:layout_width="match_parent"
-        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_height="?attr/listPreferredItemHeight"
         android:ellipsize="marquee"
         android:singleLine="true"
         android:gravity="center_vertical"
-        android:paddingLeft="@dimen/_10sdp"/>
+        android:paddingLeft="10dp"/>
 
     <View
         android:layout_width="match_parent"
