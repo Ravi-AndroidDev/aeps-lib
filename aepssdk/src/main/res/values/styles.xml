@@ -244,9 +244,9 @@
         <item name="android:textSize">15dp</item>
     </style>
 
-    <style name="cardStyle">
-        <item name="cardBackgroundColor">@color/whiteColor</item>
-    </style>
+    <!--<style name="cardStyle">
+        <item name="android:cardBackgroundColor">@color/whiteColor</item>
+    </style>-->
 
     <style name="textViewStyle">
         <item name="android:textColorHint">@color/gray_lighter</item>
